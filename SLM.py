@@ -8,7 +8,9 @@ def read_passage(path):
     return passage_text
 
 def parse_text(text):
-    
+    phrases = []
+    for i in range(len(text)):
+        phrases.append(text[i:i+3])
 
 class TransitionMatrix():
 
